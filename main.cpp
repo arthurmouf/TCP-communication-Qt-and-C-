@@ -1,10 +1,10 @@
 #include <QApplication>
-#include "client.h"
+#include "server.h"
 
 int main( int argc, char **argv )
 {
     QApplication a( argc, argv );
-    Client client;
-    client.show();
+    Server server;
+    server.show();
     return a.exec(); // permettra de traiter les signaux
 }
